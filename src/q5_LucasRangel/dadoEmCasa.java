@@ -12,7 +12,7 @@ public class dadoEmCasa extends JFrame implements ActionListener {
     private final JTextField tentativasTextField;
 
     public dadoEmCasa() {
-        super("Jogo de Adivinhação");
+        super("AV2 - JOGO DO DADO");
         this.setLayout(new FlowLayout());
 
         tentativasTextField = new JTextField("Tentativas Restantes: " + tentativasRestantes, 20);
